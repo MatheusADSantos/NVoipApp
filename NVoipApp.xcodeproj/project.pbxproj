@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF1372A26FA7F2200A20406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1372926FA7F2200A20406 /* AppDelegate.swift */; };
+		FBF1372C26FA7F2200A20406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1372B26FA7F2200A20406 /* SceneDelegate.swift */; };
+		FBF1372E26FA7F2200A20406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1372D26FA7F2200A20406 /* ViewController.swift */; };
+		FBF1373126FA7F2200A20406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF1372F26FA7F2200A20406 /* Main.storyboard */; };
+		FBF1373326FA7F2500A20406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF1373226FA7F2500A20406 /* Assets.xcassets */; };
+		FBF1373626FA7F2500A20406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF1373426FA7F2500A20406 /* LaunchScreen.storyboard */; };
+		FBF1374126FA7F2600A20406 /* NVoipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1374026FA7F2600A20406 /* NVoipAppTests.swift */; };
+		FBF1374C26FA7F2600A20406 /* NVoipAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1374B26FA7F2600A20406 /* NVoipAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBF1373D26FA7F2600A20406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF1371E26FA7F2200A20406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF1372526FA7F2200A20406;
+			remoteInfo = NVoipApp;
+		};
+		FBF1374826FA7F2600A20406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF1371E26FA7F2200A20406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF1372526FA7F2200A20406;
+			remoteInfo = NVoipApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBF1372626FA7F2200A20406 /* NVoipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVoipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1372926FA7F2200A20406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBF1372B26FA7F2200A20406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBF1372D26FA7F2200A20406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBF1373026FA7F2200A20406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBF1373226FA7F2500A20406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF1373526FA7F2500A20406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF1373726FA7F2500A20406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF1373C26FA7F2600A20406 /* NVoipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVoipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1374026FA7F2600A20406 /* NVoipAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVoipAppTests.swift; sourceTree = "<group>"; };
+		FBF1374226FA7F2600A20406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF1374726FA7F2600A20406 /* NVoipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVoipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF1374B26FA7F2600A20406 /* NVoipAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVoipAppUITests.swift; sourceTree = "<group>"; };
+		FBF1374D26FA7F2600A20406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF1372326FA7F2200A20406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1373926FA7F2600A20406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1374426FA7F2600A20406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF1371D26FA7F2200A20406 = {
+			isa = PBXGroup;
+			children = (
+				FBF1372826FA7F2200A20406 /* NVoipApp */,
+				FBF1373F26FA7F2600A20406 /* NVoipAppTests */,
+				FBF1374A26FA7F2600A20406 /* NVoipAppUITests */,
+				FBF1372726FA7F2200A20406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF1372726FA7F2200A20406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1372626FA7F2200A20406 /* NVoipApp.app */,
+				FBF1373C26FA7F2600A20406 /* NVoipAppTests.xctest */,
+				FBF1374726FA7F2600A20406 /* NVoipAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF1372826FA7F2200A20406 /* NVoipApp */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1372926FA7F2200A20406 /* AppDelegate.swift */,
+				FBF1372B26FA7F2200A20406 /* SceneDelegate.swift */,
+				FBF1372D26FA7F2200A20406 /* ViewController.swift */,
+				FBF1372F26FA7F2200A20406 /* Main.storyboard */,
+				FBF1373226FA7F2500A20406 /* Assets.xcassets */,
+				FBF1373426FA7F2500A20406 /* LaunchScreen.storyboard */,
+				FBF1373726FA7F2500A20406 /* Info.plist */,
+			);
+			path = NVoipApp;
+			sourceTree = "<group>";
+		};
+		FBF1373F26FA7F2600A20406 /* NVoipAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1374026FA7F2600A20406 /* NVoipAppTests.swift */,
+				FBF1374226FA7F2600A20406 /* Info.plist */,
+			);
+			path = NVoipAppTests;
+			sourceTree = "<group>";
+		};
+		FBF1374A26FA7F2600A20406 /* NVoipAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF1374B26FA7F2600A20406 /* NVoipAppUITests.swift */,
+				FBF1374D26FA7F2600A20406 /* Info.plist */,
+			);
+			path = NVoipAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF1372526FA7F2200A20406 /* NVoipApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1375026FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipApp" */;
+			buildPhases = (
+				FBF1372226FA7F2200A20406 /* Sources */,
+				FBF1372326FA7F2200A20406 /* Frameworks */,
+				FBF1372426FA7F2200A20406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVoipApp;
+			productName = NVoipApp;
+			productReference = FBF1372626FA7F2200A20406 /* NVoipApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBF1373B26FA7F2600A20406 /* NVoipAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1375326FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipAppTests" */;
+			buildPhases = (
+				FBF1373826FA7F2600A20406 /* Sources */,
+				FBF1373926FA7F2600A20406 /* Frameworks */,
+				FBF1373A26FA7F2600A20406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF1373E26FA7F2600A20406 /* PBXTargetDependency */,
+			);
+			name = NVoipAppTests;
+			productName = NVoipAppTests;
+			productReference = FBF1373C26FA7F2600A20406 /* NVoipAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBF1374626FA7F2600A20406 /* NVoipAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF1375626FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipAppUITests" */;
+			buildPhases = (
+				FBF1374326FA7F2600A20406 /* Sources */,
+				FBF1374426FA7F2600A20406 /* Frameworks */,
+				FBF1374526FA7F2600A20406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF1374926FA7F2600A20406 /* PBXTargetDependency */,
+			);
+			name = NVoipAppUITests;
+			productName = NVoipAppUITests;
+			productReference = FBF1374726FA7F2600A20406 /* NVoipAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF1371E26FA7F2200A20406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FBF1372526FA7F2200A20406 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FBF1373B26FA7F2600A20406 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FBF1372526FA7F2200A20406;
+					};
+					FBF1374626FA7F2600A20406 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FBF1372526FA7F2200A20406;
+					};
+				};
+			};
+			buildConfigurationList = FBF1372126FA7F2200A20406 /* Build configuration list for PBXProject "NVoipApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF1371D26FA7F2200A20406;
+			productRefGroup = FBF1372726FA7F2200A20406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF1372526FA7F2200A20406 /* NVoipApp */,
+				FBF1373B26FA7F2600A20406 /* NVoipAppTests */,
+				FBF1374626FA7F2600A20406 /* NVoipAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF1372426FA7F2200A20406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1373626FA7F2500A20406 /* LaunchScreen.storyboard in Resources */,
+				FBF1373326FA7F2500A20406 /* Assets.xcassets in Resources */,
+				FBF1373126FA7F2200A20406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1373A26FA7F2600A20406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1374526FA7F2600A20406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF1372226FA7F2200A20406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1372E26FA7F2200A20406 /* ViewController.swift in Sources */,
+				FBF1372A26FA7F2200A20406 /* AppDelegate.swift in Sources */,
+				FBF1372C26FA7F2200A20406 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1373826FA7F2600A20406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1374126FA7F2600A20406 /* NVoipAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF1374326FA7F2600A20406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF1374C26FA7F2600A20406 /* NVoipAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBF1373E26FA7F2600A20406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF1372526FA7F2200A20406 /* NVoipApp */;
+			targetProxy = FBF1373D26FA7F2600A20406 /* PBXContainerItemProxy */;
+		};
+		FBF1374926FA7F2600A20406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF1372526FA7F2200A20406 /* NVoipApp */;
+			targetProxy = FBF1374826FA7F2600A20406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBF1372F26FA7F2200A20406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1373026FA7F2200A20406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF1373426FA7F2500A20406 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF1373526FA7F2500A20406 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF1374E26FA7F2600A20406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF1374F26FA7F2600A20406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF1375126FA7F2600A20406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3WH972VF;
+				INFOPLIST_FILE = NVoipApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF1375226FA7F2600A20406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3WH972VF;
+				INFOPLIST_FILE = NVoipApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBF1375426FA7F2600A20406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3WH972VF;
+				INFOPLIST_FILE = NVoipAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVoipApp.app/NVoipApp";
+			};
+			name = Debug;
+		};
+		FBF1375526FA7F2600A20406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3WH972VF;
+				INFOPLIST_FILE = NVoipAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVoipApp.app/NVoipApp";
+			};
+			name = Release;
+		};
+		FBF1375726FA7F2600A20406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3WH972VF;
+				INFOPLIST_FILE = NVoipAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NVoipApp;
+			};
+			name = Debug;
+		};
+		FBF1375826FA7F2600A20406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK3WH972VF;
+				INFOPLIST_FILE = NVoipAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NVoipApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF1372126FA7F2200A20406 /* Build configuration list for PBXProject "NVoipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1374E26FA7F2600A20406 /* Debug */,
+				FBF1374F26FA7F2600A20406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF1375026FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1375126FA7F2600A20406 /* Debug */,
+				FBF1375226FA7F2600A20406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF1375326FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1375426FA7F2600A20406 /* Debug */,
+				FBF1375526FA7F2600A20406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF1375626FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF1375726FA7F2600A20406 /* Debug */,
+				FBF1375826FA7F2600A20406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF1371E26FA7F2200A20406 /* Project object */;
+}
