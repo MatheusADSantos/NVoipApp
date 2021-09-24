@@ -1,0 +1,6 @@
+framework module Pods_NVoipApp_NVoipAppUITests {
+  umbrella header "Pods-NVoipApp-NVoipAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

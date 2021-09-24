@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615AFBCC3067045EC5DFB9E9 /* Pods_NVoipApp_NVoipAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3C459A5F47D194BCC96C36 /* Pods_NVoipApp_NVoipAppUITests.framework */; };
+		FBB53EAE26FE1F2100438E64 /* SMSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB53EAD26FE1F2100438E64 /* SMSService.swift */; };
 		FBF1372A26FA7F2200A20406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1372926FA7F2200A20406 /* AppDelegate.swift */; };
 		FBF1372C26FA7F2200A20406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1372B26FA7F2200A20406 /* SceneDelegate.swift */; };
 		FBF1372E26FA7F2200A20406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF1372D26FA7F2200A20406 /* ViewController.swift */; };
@@ -35,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3C459A5F47D194BCC96C36 /* Pods_NVoipApp_NVoipAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVoipApp_NVoipAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25179061D8A905EFBE80FA51 /* Pods-NVoipAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVoipAppTests.release.xcconfig"; path = "Target Support Files/Pods-NVoipAppTests/Pods-NVoipAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5116FB1CB82045F7B2B90F70 /* Pods-NVoipAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVoipAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NVoipAppTests/Pods-NVoipAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EB1DB7449C9E71A242637F3 /* Pods-NVoipApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVoipApp.release.xcconfig"; path = "Target Support Files/Pods-NVoipApp/Pods-NVoipApp.release.xcconfig"; sourceTree = "<group>"; };
+		8260B51EB63910E90CFFE9CE /* Pods-NVoipApp-NVoipAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVoipApp-NVoipAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NVoipApp-NVoipAppUITests/Pods-NVoipApp-NVoipAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2FF307C5AD5248032431E8A /* Pods-NVoipApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVoipApp.debug.xcconfig"; path = "Target Support Files/Pods-NVoipApp/Pods-NVoipApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DF4A93D7C049BB9B53E187FF /* Pods-NVoipApp-NVoipAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVoipApp-NVoipAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NVoipApp-NVoipAppUITests/Pods-NVoipApp-NVoipAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB53EAD26FE1F2100438E64 /* SMSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSService.swift; sourceTree = "<group>"; };
 		FBF1372626FA7F2200A20406 /* NVoipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVoipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF1372926FA7F2200A20406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF1372B26FA7F2200A20406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,12 +80,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615AFBCC3067045EC5DFB9E9 /* Pods_NVoipApp_NVoipAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40366F855C5142523B82FFF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C459A5F47D194BCC96C36 /* Pods_NVoipApp_NVoipAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1B81B5E3E00BC29BEDCE5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2FF307C5AD5248032431E8A /* Pods-NVoipApp.debug.xcconfig */,
+				6EB1DB7449C9E71A242637F3 /* Pods-NVoipApp.release.xcconfig */,
+				DF4A93D7C049BB9B53E187FF /* Pods-NVoipApp-NVoipAppUITests.debug.xcconfig */,
+				8260B51EB63910E90CFFE9CE /* Pods-NVoipApp-NVoipAppUITests.release.xcconfig */,
+				5116FB1CB82045F7B2B90F70 /* Pods-NVoipAppTests.debug.xcconfig */,
+				25179061D8A905EFBE80FA51 /* Pods-NVoipAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FBF1371D26FA7F2200A20406 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				FBF1373F26FA7F2600A20406 /* NVoipAppTests */,
 				FBF1374A26FA7F2600A20406 /* NVoipAppUITests */,
 				FBF1372726FA7F2200A20406 /* Products */,
+				40366F855C5142523B82FFF9 /* Frameworks */,
+				ED1B81B5E3E00BC29BEDCE5F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +136,7 @@
 				FBF1372926FA7F2200A20406 /* AppDelegate.swift */,
 				FBF1372B26FA7F2200A20406 /* SceneDelegate.swift */,
 				FBF1372D26FA7F2200A20406 /* ViewController.swift */,
+				FBB53EAD26FE1F2100438E64 /* SMSService.swift */,
 				FBF1372F26FA7F2200A20406 /* Main.storyboard */,
 				FBF1373226FA7F2500A20406 /* Assets.xcassets */,
 				FBF1373426FA7F2500A20406 /* LaunchScreen.storyboard */,
@@ -135,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBF1375026FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipApp" */;
 			buildPhases = (
+				34F4F5FFB7AB9FFEBCE1DD20 /* [CP] Check Pods Manifest.lock */,
 				FBF1372226FA7F2200A20406 /* Sources */,
 				FBF1372326FA7F2200A20406 /* Frameworks */,
 				FBF1372426FA7F2200A20406 /* Resources */,
@@ -152,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBF1375326FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipAppTests" */;
 			buildPhases = (
+				6E726B968889DE555A9A44BE /* [CP] Check Pods Manifest.lock */,
 				FBF1373826FA7F2600A20406 /* Sources */,
 				FBF1373926FA7F2600A20406 /* Frameworks */,
 				FBF1373A26FA7F2600A20406 /* Resources */,
@@ -170,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBF1375626FA7F2600A20406 /* Build configuration list for PBXNativeTarget "NVoipAppUITests" */;
 			buildPhases = (
+				BB3A1628AF3AAED7872B2376 /* [CP] Check Pods Manifest.lock */,
 				FBF1374326FA7F2600A20406 /* Sources */,
 				FBF1374426FA7F2600A20406 /* Frameworks */,
 				FBF1374526FA7F2600A20406 /* Resources */,
@@ -253,6 +291,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34F4F5FFB7AB9FFEBCE1DD20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVoipApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E726B968889DE555A9A44BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVoipAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB3A1628AF3AAED7872B2376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVoipApp-NVoipAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBF1372226FA7F2200A20406 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +368,7 @@
 				FBF1372E26FA7F2200A20406 /* ViewController.swift in Sources */,
 				FBF1372A26FA7F2200A20406 /* AppDelegate.swift in Sources */,
 				FBF1372C26FA7F2200A20406 /* SceneDelegate.swift in Sources */,
+				FBB53EAE26FE1F2100438E64 /* SMSService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,17 +541,18 @@
 		};
 		FBF1375126FA7F2600A20406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2FF307C5AD5248032431E8A /* Pods-NVoipApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HK3WH972VF;
+				DEVELOPMENT_TEAM = G625UPV6D7;
 				INFOPLIST_FILE = NVoipApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipApp";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.nvoipapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,17 +561,18 @@
 		};
 		FBF1375226FA7F2600A20406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB1DB7449C9E71A242637F3 /* Pods-NVoipApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HK3WH972VF;
+				DEVELOPMENT_TEAM = G625UPV6D7;
 				INFOPLIST_FILE = NVoipApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MatheusADSantos-com.github.NVoipApp";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.nvoipapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,11 +581,12 @@
 		};
 		FBF1375426FA7F2600A20406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5116FB1CB82045F7B2B90F70 /* Pods-NVoipAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HK3WH972VF;
+				DEVELOPMENT_TEAM = G625UPV6D7;
 				INFOPLIST_FILE = NVoipAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,11 +604,12 @@
 		};
 		FBF1375526FA7F2600A20406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25179061D8A905EFBE80FA51 /* Pods-NVoipAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HK3WH972VF;
+				DEVELOPMENT_TEAM = G625UPV6D7;
 				INFOPLIST_FILE = NVoipAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -515,10 +627,11 @@
 		};
 		FBF1375726FA7F2600A20406 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4A93D7C049BB9B53E187FF /* Pods-NVoipApp-NVoipAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HK3WH972VF;
+				DEVELOPMENT_TEAM = G625UPV6D7;
 				INFOPLIST_FILE = NVoipAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -535,10 +648,11 @@
 		};
 		FBF1375826FA7F2600A20406 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8260B51EB63910E90CFFE9CE /* Pods-NVoipApp-NVoipAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HK3WH972VF;
+				DEVELOPMENT_TEAM = G625UPV6D7;
 				INFOPLIST_FILE = NVoipAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

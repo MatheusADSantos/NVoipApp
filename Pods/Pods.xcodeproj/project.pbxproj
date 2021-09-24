@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3EA754E768B454C647131ACE09A82F /* Pods-NVoipApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8E9E5AFD3446004130F6A0E2DC3B51 /* Pods-NVoipApp-dummy.m */; };
+		23C1FACA950944AA04C98430056E41B3 /* Pods-NVoipApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 135AFFFA3C3F1E3A3AE86CDDB8604A1B /* Pods-NVoipApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3260C90EF79FCCEB4061393302FD50D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E2AB764809D3A28598D4C281949D78E /* Pods-NVoipApp-NVoipAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB2E9018C76ED959CB6AE93109B8E78 /* Pods-NVoipApp-NVoipAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DDF1BCDF1C3DC3060F5A0D80B2C7895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		670BC266BD14EBBE745E40CD48F5415D /* Pods-NVoipAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EB23C6F00705368BCBCD8D477D5C7E /* Pods-NVoipAppTests-dummy.m */; };
+		760FB8B84D1E83C77D5259F7ADD1A099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B4C07C5F7A7C87F4018F21296BE0039 /* Pods-NVoipApp-NVoipAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC62A073DEC82F89E2659B59E99640D /* Pods-NVoipApp-NVoipAppUITests-dummy.m */; };
+		BE733F7C05EE0FD1FBABE062DAE099BF /* Pods-NVoipAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C263FE98C473093E2186A39939353845 /* Pods-NVoipAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480D9735060224164EF957D06477F16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC21124F5F3EC99593C38DB8EC5E6A73;
+			remoteInfo = "Pods-NVoipApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C70C1CA2119739F3F06C2B911F9624 /* Pods-NVoipAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVoipAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12A46B9D2A4332B8E0FD71F32096BB39 /* Pods-NVoipApp-NVoipAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVoipApp-NVoipAppUITests-Info.plist"; sourceTree = "<group>"; };
+		135AFFFA3C3F1E3A3AE86CDDB8604A1B /* Pods-NVoipApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NVoipApp-umbrella.h"; sourceTree = "<group>"; };
+		1CB8E84475F5BFF65C1207003BB74DDC /* Pods-NVoipAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVoipAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC62A073DEC82F89E2659B59E99640D /* Pods-NVoipApp-NVoipAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVoipApp-NVoipAppUITests-dummy.m"; sourceTree = "<group>"; };
+		42E793CEAC351F94C9CB0AC1A6A36440 /* Pods-NVoipAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVoipAppTests-Info.plist"; sourceTree = "<group>"; };
+		4536C30AB8D235B7B4D2CB6F64F29B8F /* Pods-NVoipAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVoipAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4602581B15C8923B25F1323CF8B115F8 /* Pods-NVoipApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVoipApp.debug.xcconfig"; sourceTree = "<group>"; };
+		472F5C7DB438BC2F4232A075EA6A8CFB /* Pods-NVoipApp-NVoipAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NVoipApp-NVoipAppUITests.modulemap"; sourceTree = "<group>"; };
+		498008727A4ED7019AA48A98FA33097A /* Pods-NVoipApp-NVoipAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVoipApp-NVoipAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E1DA1919947DE3F0D66936C088D2887 /* Pods-NVoipAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVoipAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60999654745370DF5787D357B612B78E /* Pods-NVoipApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVoipApp.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7543D1A69FE9FA3D2501C4F2FCAC54A0 /* Pods-NVoipApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVoipApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BB2E9018C76ED959CB6AE93109B8E78 /* Pods-NVoipApp-NVoipAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NVoipApp-NVoipAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		8208768020CDE2B17D423B16CBB9983D /* Pods-NVoipApp-NVoipAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVoipApp-NVoipAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91D2205AF58DB483E934C9A1F7E96C53 /* Pods-NVoipApp-NVoipAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVoipApp-NVoipAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		96EB23C6F00705368BCBCD8D477D5C7E /* Pods-NVoipAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVoipAppTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8062C5D7726A759B68360BE431BBB0F /* Pods-NVoipApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVoipApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAF96805DC625EF46C2857C695702F02 /* Pods-NVoipAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NVoipAppTests.modulemap"; sourceTree = "<group>"; };
+		AF8E9E5AFD3446004130F6A0E2DC3B51 /* Pods-NVoipApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVoipApp-dummy.m"; sourceTree = "<group>"; };
+		B94DF3088D06292F4392816BBE76C633 /* Pods_NVoipApp_NVoipAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NVoipApp_NVoipAppUITests.framework; path = "Pods-NVoipApp-NVoipAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA05B5BD3D4C862E413E29D288B67401 /* Pods-NVoipApp-NVoipAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVoipApp-NVoipAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF6E7C31B97EC3F2BB07A0845248E102 /* Pods-NVoipApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NVoipApp.modulemap"; sourceTree = "<group>"; };
+		BFE706030F8DBE85DF2BAA2DD1B23828 /* Pods_NVoipAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NVoipAppTests.framework; path = "Pods-NVoipAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C263FE98C473093E2186A39939353845 /* Pods-NVoipAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NVoipAppTests-umbrella.h"; sourceTree = "<group>"; };
+		DD893B0164BA4FFE9A9CA0257367FE78 /* Pods-NVoipApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVoipApp-Info.plist"; sourceTree = "<group>"; };
+		F1D04947C599DB4AFC3C9BB6CF829005 /* Pods_NVoipApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NVoipApp.framework; path = "Pods-NVoipApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41342201C9EA76752A67A0EAF7682B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760FB8B84D1E83C77D5259F7ADD1A099 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8E3ECF7F665C7C363533DA0BFD954B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3260C90EF79FCCEB4061393302FD50D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5752696F9FB171EAD8BEFC70C587E727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDF1BCDF1C3DC3060F5A0D80B2C7895 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A48D3F23D1DF51EB3DC5309FB199CD5 /* Pods-NVoipAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAF96805DC625EF46C2857C695702F02 /* Pods-NVoipAppTests.modulemap */,
+				5E1DA1919947DE3F0D66936C088D2887 /* Pods-NVoipAppTests-acknowledgements.markdown */,
+				03C70C1CA2119739F3F06C2B911F9624 /* Pods-NVoipAppTests-acknowledgements.plist */,
+				96EB23C6F00705368BCBCD8D477D5C7E /* Pods-NVoipAppTests-dummy.m */,
+				42E793CEAC351F94C9CB0AC1A6A36440 /* Pods-NVoipAppTests-Info.plist */,
+				C263FE98C473093E2186A39939353845 /* Pods-NVoipAppTests-umbrella.h */,
+				1CB8E84475F5BFF65C1207003BB74DDC /* Pods-NVoipAppTests.debug.xcconfig */,
+				4536C30AB8D235B7B4D2CB6F64F29B8F /* Pods-NVoipAppTests.release.xcconfig */,
+			);
+			name = "Pods-NVoipAppTests";
+			path = "Target Support Files/Pods-NVoipAppTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59DF5304232DDA63C8BEC917DAFD3438 /* Pods-NVoipApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E7C31B97EC3F2BB07A0845248E102 /* Pods-NVoipApp.modulemap */,
+				7543D1A69FE9FA3D2501C4F2FCAC54A0 /* Pods-NVoipApp-acknowledgements.markdown */,
+				A8062C5D7726A759B68360BE431BBB0F /* Pods-NVoipApp-acknowledgements.plist */,
+				AF8E9E5AFD3446004130F6A0E2DC3B51 /* Pods-NVoipApp-dummy.m */,
+				DD893B0164BA4FFE9A9CA0257367FE78 /* Pods-NVoipApp-Info.plist */,
+				135AFFFA3C3F1E3A3AE86CDDB8604A1B /* Pods-NVoipApp-umbrella.h */,
+				4602581B15C8923B25F1323CF8B115F8 /* Pods-NVoipApp.debug.xcconfig */,
+				60999654745370DF5787D357B612B78E /* Pods-NVoipApp.release.xcconfig */,
+			);
+			name = "Pods-NVoipApp";
+			path = "Target Support Files/Pods-NVoipApp";
+			sourceTree = "<group>";
+		};
+		6CC87E23C97D8B899C041E4053B58491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D04947C599DB4AFC3C9BB6CF829005 /* Pods_NVoipApp.framework */,
+				B94DF3088D06292F4392816BBE76C633 /* Pods_NVoipApp_NVoipAppUITests.framework */,
+				BFE706030F8DBE85DF2BAA2DD1B23828 /* Pods_NVoipAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8A0CACD70138AC600F97B3A0B88AB6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59DF5304232DDA63C8BEC917DAFD3438 /* Pods-NVoipApp */,
+				A607DA0085554BC5C2828D5C1232B4B9 /* Pods-NVoipApp-NVoipAppUITests */,
+				4A48D3F23D1DF51EB3DC5309FB199CD5 /* Pods-NVoipAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A607DA0085554BC5C2828D5C1232B4B9 /* Pods-NVoipApp-NVoipAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				472F5C7DB438BC2F4232A075EA6A8CFB /* Pods-NVoipApp-NVoipAppUITests.modulemap */,
+				8208768020CDE2B17D423B16CBB9983D /* Pods-NVoipApp-NVoipAppUITests-acknowledgements.markdown */,
+				498008727A4ED7019AA48A98FA33097A /* Pods-NVoipApp-NVoipAppUITests-acknowledgements.plist */,
+				1CC62A073DEC82F89E2659B59E99640D /* Pods-NVoipApp-NVoipAppUITests-dummy.m */,
+				12A46B9D2A4332B8E0FD71F32096BB39 /* Pods-NVoipApp-NVoipAppUITests-Info.plist */,
+				7BB2E9018C76ED959CB6AE93109B8E78 /* Pods-NVoipApp-NVoipAppUITests-umbrella.h */,
+				91D2205AF58DB483E934C9A1F7E96C53 /* Pods-NVoipApp-NVoipAppUITests.debug.xcconfig */,
+				BA05B5BD3D4C862E413E29D288B67401 /* Pods-NVoipApp-NVoipAppUITests.release.xcconfig */,
+			);
+			name = "Pods-NVoipApp-NVoipAppUITests";
+			path = "Target Support Files/Pods-NVoipApp-NVoipAppUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6CC87E23C97D8B899C041E4053B58491 /* Products */,
+				9E8A0CACD70138AC600F97B3A0B88AB6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D46726D40C9A27B3E5F595135F63276 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE733F7C05EE0FD1FBABE062DAE099BF /* Pods-NVoipAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BE07E3B38E1F12F27A084F60EB0841 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C1FACA950944AA04C98430056E41B3 /* Pods-NVoipApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90FD85D4E8A475D8CC6801BC20B8941 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2AB764809D3A28598D4C281949D78E /* Pods-NVoipApp-NVoipAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A8EFDBF0B8CDEB1018B44E61F4D5C5F4 /* Pods-NVoipApp-NVoipAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E1AD015B61E34C34F9AC2E2C79D3D4 /* Build configuration list for PBXNativeTarget "Pods-NVoipApp-NVoipAppUITests" */;
+			buildPhases = (
+				F90FD85D4E8A475D8CC6801BC20B8941 /* Headers */,
+				1C921398CC2C7A7CFF87FD71D903393B /* Sources */,
+				4E8E3ECF7F665C7C363533DA0BFD954B /* Frameworks */,
+				A17E3DDCADD25F207766C097656E7974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NVoipApp-NVoipAppUITests";
+			productName = "Pods-NVoipApp-NVoipAppUITests";
+			productReference = B94DF3088D06292F4392816BBE76C633 /* Pods_NVoipApp_NVoipAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3A6D22403A91C80FC87C5CF655E83CA /* Pods-NVoipAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9694E248D023095DB275CC544A3974F4 /* Build configuration list for PBXNativeTarget "Pods-NVoipAppTests" */;
+			buildPhases = (
+				3D46726D40C9A27B3E5F595135F63276 /* Headers */,
+				2B2DDD18BD6E105B3E70188038BB601D /* Sources */,
+				41342201C9EA76752A67A0EAF7682B14 /* Frameworks */,
+				61AFA53111D2CCCE54B5124B45494C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5DC27F24ACF054A62B8879CB668A4CE /* PBXTargetDependency */,
+			);
+			name = "Pods-NVoipAppTests";
+			productName = "Pods-NVoipAppTests";
+			productReference = BFE706030F8DBE85DF2BAA2DD1B23828 /* Pods_NVoipAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC21124F5F3EC99593C38DB8EC5E6A73 /* Pods-NVoipApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F788BE0E31D24BC15C01ABC97601D777 /* Build configuration list for PBXNativeTarget "Pods-NVoipApp" */;
+			buildPhases = (
+				C9BE07E3B38E1F12F27A084F60EB0841 /* Headers */,
+				B776936784A907AD2014FAC1AF66DC63 /* Sources */,
+				5752696F9FB171EAD8BEFC70C587E727 /* Frameworks */,
+				4600C50CAB4F42407D01651388EFBA1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NVoipApp";
+			productName = "Pods-NVoipApp";
+			productReference = F1D04947C599DB4AFC3C9BB6CF829005 /* Pods_NVoipApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6CC87E23C97D8B899C041E4053B58491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC21124F5F3EC99593C38DB8EC5E6A73 /* Pods-NVoipApp */,
+				A8EFDBF0B8CDEB1018B44E61F4D5C5F4 /* Pods-NVoipApp-NVoipAppUITests */,
+				B3A6D22403A91C80FC87C5CF655E83CA /* Pods-NVoipAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4600C50CAB4F42407D01651388EFBA1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AFA53111D2CCCE54B5124B45494C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17E3DDCADD25F207766C097656E7974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C921398CC2C7A7CFF87FD71D903393B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4C07C5F7A7C87F4018F21296BE0039 /* Pods-NVoipApp-NVoipAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2DDD18BD6E105B3E70188038BB601D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670BC266BD14EBBE745E40CD48F5415D /* Pods-NVoipAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B776936784A907AD2014FAC1AF66DC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3EA754E768B454C647131ACE09A82F /* Pods-NVoipApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5DC27F24ACF054A62B8879CB668A4CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NVoipApp";
+			target = BC21124F5F3EC99593C38DB8EC5E6A73 /* Pods-NVoipApp */;
+			targetProxy = 480D9735060224164EF957D06477F16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070400EDDA997A816F719B88E73D3DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA05B5BD3D4C862E413E29D288B67401 /* Pods-NVoipApp-NVoipAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NVoipApp-NVoipAppUITests/Pods-NVoipApp-NVoipAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVoipApp-NVoipAppUITests/Pods-NVoipApp-NVoipAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D665EB645A5FB30E41F8EF0A92C930F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60999654745370DF5787D357B612B78E /* Pods-NVoipApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NVoipApp/Pods-NVoipApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVoipApp/Pods-NVoipApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8118C8A745303200EA8B426E3710BC9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB8E84475F5BFF65C1207003BB74DDC /* Pods-NVoipAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NVoipAppTests/Pods-NVoipAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVoipAppTests/Pods-NVoipAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9356E92364A5D2A95472D794309583C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D2205AF58DB483E934C9A1F7E96C53 /* Pods-NVoipApp-NVoipAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NVoipApp-NVoipAppUITests/Pods-NVoipApp-NVoipAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVoipApp-NVoipAppUITests/Pods-NVoipApp-NVoipAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB0AF14B13DA74886CAD1059B1C85D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4536C30AB8D235B7B4D2CB6F64F29B8F /* Pods-NVoipAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NVoipAppTests/Pods-NVoipAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVoipAppTests/Pods-NVoipAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F760F5BD80401115F964D8DD5E61B906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4602581B15C8923B25F1323CF8B115F8 /* Pods-NVoipApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NVoipApp/Pods-NVoipApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NVoipApp/Pods-NVoipApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9694E248D023095DB275CC544A3974F4 /* Build configuration list for PBXNativeTarget "Pods-NVoipAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8118C8A745303200EA8B426E3710BC9E /* Debug */,
+				DB0AF14B13DA74886CAD1059B1C85D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E1AD015B61E34C34F9AC2E2C79D3D4 /* Build configuration list for PBXNativeTarget "Pods-NVoipApp-NVoipAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9356E92364A5D2A95472D794309583C /* Debug */,
+				070400EDDA997A816F719B88E73D3DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F788BE0E31D24BC15C01ABC97601D777 /* Build configuration list for PBXNativeTarget "Pods-NVoipApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F760F5BD80401115F964D8DD5E61B906 /* Debug */,
+				6D665EB645A5FB30E41F8EF0A92C930F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

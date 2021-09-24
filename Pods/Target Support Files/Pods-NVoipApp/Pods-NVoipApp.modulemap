@@ -1,0 +1,6 @@
+framework module Pods_NVoipApp {
+  umbrella header "Pods-NVoipApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
